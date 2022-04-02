@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <email emergencycontact="9876543210" empid="221221">sherlock@holmes.com</email>
+    <fullname salute="Mr" gender="m" dateofbirth="2000-01-01">Sherlock Holmes</fullname>
+    <address>
+        <city>london</city>
+        <country>united kingdom</country>
+        <housenum>221b</housenum>
+        <street>baker street</street>
+    </address>
+    <job>
+        <department>secret service</department>
+        <designation>detective</designation>
+        <location>england</location>
+    </job>
+</root>

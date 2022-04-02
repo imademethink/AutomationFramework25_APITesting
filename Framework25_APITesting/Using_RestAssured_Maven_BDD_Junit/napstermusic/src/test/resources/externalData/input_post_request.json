@@ -1,0 +1,61 @@
+{
+    "proposals": {
+        
+        "costing_type": "PROP",
+        "activity_type": "CTRCT-FEC",
+        "proposal_type": "FLW",
+        "proposal_title": "Test3",
+        "proposal_description": "Test3 description1 ",
+        "pricing_rule_type_id": 13,
+        "currency_code": "GBP",
+        "deadline_type_lkp_code": "INST",
+        "enforce_deadline_y_n": "Y",
+        "submission_deadline_date": "30-APR-21",
+        "copied_from_proposal_id": 0,
+        "extension_of_proposal_id": 0,
+        "supplement_of_proposal_id": 0,
+        "new_pi_flag": "Y",
+        "proposal_status": "DRFT",
+        "creation_date": "06-APR-21 09:02:11",
+        "created_by": 800,
+        "last_update_login": 500,
+        "proposal_version": {
+            "version_description": "Demo Version",
+            "proposal_start_date": "01-JAN-21",
+            "proposal_end_date": "31-JUL-21"
+        },
+        "proposal_sponsors":
+        [
+            {
+                "sponsor_party_id": 321102,
+                "prop_sponsors_rltn_descr": "Test1",
+                "sponsor_type": "PRM"
+            },
+            {
+                "sponsor_party_id": 321098,
+                "prop_sponsors_rltn_descr": "Test2",
+                "sponsor_type": "JV"
+            }
+        ],
+        "proposal_departments": [
+            {
+                "investigator_type": "PI",
+                "investigator_credit_percent": 60,
+                "org_unit_id": 100,
+                "employee_number": 1
+            },
+            {
+                "investigator_type": "SCO-I",
+                "investigator_credit_percent": 25,
+                "org_unit_id": 120,
+                "employee_number": 2
+            },
+            {
+                "investigator_type": "SCO-I",
+                "investigator_credit_percent": 15,
+                "org_unit_id": 130,
+                "employee_number": 3
+            }
+        ]
+    }
+}

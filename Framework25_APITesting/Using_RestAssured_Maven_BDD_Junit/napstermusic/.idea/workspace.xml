@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21810a3f-a81e-4607-9f63-95edf49d505b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1rG2vLHCrC5cbT7iK8C13yWuZu8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/externalData" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pkg_testrunner" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TonyStark\Framework25_APITesting\Using_RestAssured_Maven_BDD_Junit\napstermusic\src\test\resources\externalData" />
+      <recent name="D:\TonyStark\Framework25_APITesting\Using_RestAssured_Maven_BDD_Junit\napstermusic\src\test\resources" />
+      <recent name="D:\TonyStark\Framework25_APITesting\Using_RestAssured_Maven_BDD_Junit\napstermusic\src\test\java" />
+      <recent name="D:\TonyStark\Framework25_APITesting\Using_RestAssured_Maven_BDD_Junit\napstermusic\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Utility_Sid">
+    <configuration name="Utility_Sid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg_utility.Utility_Sid" />
+      <module name="napstermusic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunnerFramework_API" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="napstermusic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pkg_testrunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pkg_testrunner" />
+      <option name="MAIN_CLASS_NAME" value="pkg_testrunner.TestRunnerFramework_API" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="napstermusic" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Utility_Sid" />
+      <item itemvalue="JUnit.TestRunnerFramework_API" />
+      <item itemvalue="Maven.napstermusic" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Utility_Sid" />
+        <item itemvalue="JUnit.TestRunnerFramework_API" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21810a3f-a81e-4607-9f63-95edf49d505b" name="Default Changelist" comment="" />
+      <created>1597860708263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597860708263</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestRunnerFramework_API - 2020.08.21 at 00h 50m 21s.xml">
+      <configuration name="TestRunnerFramework_API" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunnerFramework_API - 2020.08.21 at 01h 37m 15s.xml">
+      <configuration name="TestRunnerFramework_API" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunnerFramework_API - 2020.08.21 at 01h 38m 37s.xml">
+      <configuration name="TestRunnerFramework_API" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunnerFramework_API - 2020.08.21 at 01h 43m 08s.xml">
+      <configuration name="TestRunnerFramework_API" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunnerFramework_API - 2020.08.21 at 01h 48m 40s.xml">
+      <configuration name="TestRunnerFramework_API" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunnerFramework_API - 2020.08.21 at 01h 49m 38s.xml">
+      <configuration name="TestRunnerFramework_API" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunnerFramework_API - 2020.08.21 at 01h 53m 02s.xml">
+      <configuration name="TestRunnerFramework_API" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunnerFramework_API - 2020.08.21 at 02h 00m 26s.xml">
+      <configuration name="TestRunnerFramework_API" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunnerFramework_API - 2020.08.21 at 02h 05m 40s.xml">
+      <configuration name="TestRunnerFramework_API" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRunnerFramework_API - 2020.08.21 at 02h 06m 17s.xml">
+      <configuration name="TestRunnerFramework_API" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618743955857">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="137" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1366.738@0.30.1366.738" timestamp="1618743955857" />
+    <state x="463" y="153" key="FileChooserDialogImpl" timestamp="1618662038792">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="463" y="153" key="FileChooserDialogImpl/0.30.1366.738@0.30.1366.738" timestamp="1618662038792" />
+    <state width="1323" height="502" key="GridCell.Tab.0.bottom" timestamp="1618755292030">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="502" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1618755292030" />
+    <state width="1323" height="502" key="GridCell.Tab.0.center" timestamp="1618755292030">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="502" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1618755292030" />
+    <state width="1323" height="502" key="GridCell.Tab.0.left" timestamp="1618755292030">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="502" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1618755292030" />
+    <state width="1323" height="502" key="GridCell.Tab.0.right" timestamp="1618755292030">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="502" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1618755292030" />
+    <state width="1323" height="349" key="GridCell.Tab.1.bottom" timestamp="1618745496051">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="349" key="GridCell.Tab.1.bottom/0.30.1366.738@0.30.1366.738" timestamp="1618745496051" />
+    <state width="1323" height="349" key="GridCell.Tab.1.center" timestamp="1618745496051">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="349" key="GridCell.Tab.1.center/0.30.1366.738@0.30.1366.738" timestamp="1618745496051" />
+    <state width="1323" height="349" key="GridCell.Tab.1.left" timestamp="1618745496051">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="349" key="GridCell.Tab.1.left/0.30.1366.738@0.30.1366.738" timestamp="1618745496051" />
+    <state width="1323" height="349" key="GridCell.Tab.1.right" timestamp="1618745496051">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="349" key="GridCell.Tab.1.right/0.30.1366.738@0.30.1366.738" timestamp="1618745496051" />
+    <state x="249" y="127" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1618743994301">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="249" y="127" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.30.1366.738@0.30.1366.738" timestamp="1618743994301" />
+    <state x="389" y="132" width="858" height="534" key="find.popup" timestamp="1618754626248">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="389" y="132" width="858" height="534" key="find.popup/0.30.1366.738@0.30.1366.738" timestamp="1618754626248" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

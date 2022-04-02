@@ -1,0 +1,413 @@
+2020-08-21 02:00:20 INFO  HooksHelper                                       :23 - Before every Scenario hook
+2020-08-21 02:00:20 FATAL Utility_General                                   :123 - 
+  ____       _                 _                    _____       _                 
+ |  _ \     | |               (_)                  |  __ \     (_)                
+ | |_) | ___| |__   __ ___   ___  ___  _   _ _ __  | |  | |_ __ ___   _____ _ __  
+ |  _ < / _ \ '_ \ / _` \ \ / / |/ _ \| | | | '__| | |  | | '__| \ \ / / _ \ '_ \ 
+ | |_) |  __/ | | | (_| |\ V /| | (_) | |_| | |    | |__| | |  | |\ V /  __/ | | |
+ |____/ \___|_| |_|\__,_| \_/ |_|\___/ \__,_|_|    |_____/|_|  |_| \_/ \___|_| |_|
+
+2020-08-21 02:00:20 INFO  Utility_General                                   :37 - Setting base uri: http://imademethink.pythonanywhere.com
+2020-08-21 02:00:21 INFO  Utility_General                                   :40 - Setting header ContentType : application/json
+2020-08-21 02:00:21 INFO  Utility_General                                   :41 - Setting header AcceptType  : application/json
+2020-08-21 02:00:21 INFO  Utility_General                                   :44 - Setting basic authentication user : diyuser
+2020-08-21 02:00:21 INFO  Utility_General                                   :45 - Setting basic authentication pwd  : diypwd
+2020-08-21 02:00:21 INFO  StepDef_RestAPI                                   :78 - Registration_with_valid_user_data_should_be_successful
+2020-08-21 02:00:21 INFO  StepDef_RestAPI                                   :90 - Request body       : {"password":"London3439","firstname":"Sherlock","captcha":"2020","user":"jo1378@aa.com","lastname":"Holmes"}
+2020-08-21 02:00:21 INFO  StepDef_RestAPI                                   :93 - Setting endpoint   : /v2/register
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :97 - Response http code : 201
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :99 - Response body      : {"register":"Registration success","userid":"userid_06"}
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :108 - Received message: Registration success
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :114 - Received userid : userid_06
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :132 - Login_with_valid_user_data_should_be_successful
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :137 - Request body       : {"password":"London3439","user":"jo1378@aa.com"}
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :140 - Setting endpoint   : /v2/login
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :145 - Response http code : 200
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :150 - Response body      : {"login":"Login success","token":"ohozgpcbiddznbdi"}
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :155 - Received message: Login success
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :161 - Received token : ohozgpcbiddznbdi
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :169 - Update_profile_with_valid_data_should_be_successful
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :180 - Request body       : {"password":"London3439","firstname":"Clint","newpassword":"Paris3439","user":"jo1378@aa.com","lastname":"Eastwood"}
+2020-08-21 02:00:23 INFO  StepDef_RestAPI                                   :183 - Setting endpoint   : /v2/updateprofile
+2020-08-21 02:00:24 INFO  StepDef_RestAPI                                   :188 - Response http code : 200
+2020-08-21 02:00:24 INFO  StepDef_RestAPI                                   :193 - Response body      : {"updateprofile":"Update profile success"}
+2020-08-21 02:00:24 INFO  StepDef_RestAPI                                   :198 - Received message: Update profile success
+2020-08-21 02:00:24 INFO  StepDef_RestAPI                                   :211 - Logout_with_valid_user_data_should_be_successful
+2020-08-21 02:00:24 INFO  StepDef_RestAPI                                   :216 - Request body       : {"password":"Paris3439","user":"jo1378@aa.com"}
+2020-08-21 02:00:24 INFO  StepDef_RestAPI                                   :219 - Setting endpoint   : /v2/logout
+2020-08-21 02:00:25 INFO  StepDef_RestAPI                                   :224 - Response http code : 200
+2020-08-21 02:00:25 INFO  StepDef_RestAPI                                   :229 - Response body      : {"logout":"Logout success"}
+2020-08-21 02:00:25 INFO  StepDef_RestAPI                                   :234 - Received message: Logout success
+2020-08-21 02:00:25 INFO  HooksHelper                                       :29 - After the every Scenario hook
+2020-08-21 02:00:25 INFO  Utility_General                                   :50 - Resetting base Restassured
+2020-08-21 02:05:34 INFO  HooksHelper                                       :23 - Before every Scenario hook
+2020-08-21 02:05:34 FATAL Utility_General                                   :123 - 
+  ____       _                 _                    _____       _                 
+ |  _ \     | |               (_)                  |  __ \     (_)                
+ | |_) | ___| |__   __ ___   ___  ___  _   _ _ __  | |  | |_ __ ___   _____ _ __  
+ |  _ < / _ \ '_ \ / _` \ \ / / |/ _ \| | | | '__| | |  | | '__| \ \ / / _ \ '_ \ 
+ | |_) |  __/ | | | (_| |\ V /| | (_) | |_| | |    | |__| | |  | |\ V /  __/ | | |
+ |____/ \___|_| |_|\__,_| \_/ |_|\___/ \__,_|_|    |_____/|_|  |_| \_/ \___|_| |_|
+
+2020-08-21 02:05:34 INFO  Utility_General                                   :37 - Setting base uri: http://imademethink.pythonanywhere.com
+2020-08-21 02:05:34 INFO  Utility_General                                   :40 - Setting header ContentType : application/json
+2020-08-21 02:05:34 INFO  Utility_General                                   :41 - Setting header AcceptType  : application/json
+2020-08-21 02:05:34 INFO  Utility_General                                   :44 - Setting basic authentication user : diyuser
+2020-08-21 02:05:34 INFO  Utility_General                                   :45 - Setting basic authentication pwd  : diypwd
+2020-08-21 02:05:34 INFO  StepDef_RestAPI                                   :82 - Registration_with_valid_user_data_should_be_successful
+2020-08-21 02:05:34 INFO  StepDef_RestAPI                                   :94 - Request body       : {"password":"London8749","firstname":"Sherlock","captcha":"2020","user":"jo8672@aa.com","lastname":"Holmes"}
+2020-08-21 02:05:34 INFO  StepDef_RestAPI                                   :97 - Setting endpoint   : /v2/register
+2020-08-21 02:05:36 INFO  StepDef_RestAPI                                   :101 - Response http code : 201
+2020-08-21 02:05:36 INFO  StepDef_RestAPI                                   :103 - Response body      : {"register":"Registration success","userid":"userid_07"}
+2020-08-21 02:05:36 INFO  StepDef_RestAPI                                   :112 - Received message: Registration success
+2020-08-21 02:05:36 INFO  StepDef_RestAPI                                   :118 - Received userid : userid_07
+2020-08-21 02:05:36 INFO  StepDef_RestAPI                                   :136 - Login_with_valid_user_data_should_be_successful
+2020-08-21 02:05:36 INFO  StepDef_RestAPI                                   :141 - Request body       : {"password":"London8749","user":"jo8672@aa.com"}
+2020-08-21 02:05:36 INFO  StepDef_RestAPI                                   :144 - Setting endpoint   : /v2/login
+2020-08-21 02:05:37 INFO  StepDef_RestAPI                                   :149 - Response http code : 200
+2020-08-21 02:05:37 INFO  StepDef_RestAPI                                   :154 - Response body      : {"login":"Login success","token":"ngoccritfwjgxodn"}
+2020-08-21 02:05:37 INFO  StepDef_RestAPI                                   :159 - Received message: Login success
+2020-08-21 02:05:37 INFO  StepDef_RestAPI                                   :165 - Received token : ngoccritfwjgxodn
+2020-08-21 02:05:37 INFO  StepDef_RestAPI                                   :173 - Update_profile_with_valid_data_should_be_successful
+2020-08-21 02:05:37 INFO  StepDef_RestAPI                                   :184 - Request body       : {"password":"London8749","firstname":"Clint","newpassword":"Paris8749","user":"jo8672@aa.com","lastname":"Eastwood"}
+2020-08-21 02:05:37 INFO  StepDef_RestAPI                                   :187 - Setting endpoint   : /v2/updateprofile
+2020-08-21 02:05:37 INFO  StepDef_RestAPI                                   :192 - Response http code : 200
+2020-08-21 02:05:37 INFO  StepDef_RestAPI                                   :197 - Response body      : {"updateprofile":"Update profile success"}
+2020-08-21 02:05:37 INFO  StepDef_RestAPI                                   :202 - Received message: Update profile success
+2020-08-21 02:05:38 INFO  StepDef_RestAPI                                   :215 - Logout_with_valid_user_data_should_be_successful
+2020-08-21 02:05:38 INFO  StepDef_RestAPI                                   :220 - Request body       : {"password":"Paris8749","user":"jo8672@aa.com"}
+2020-08-21 02:05:38 INFO  StepDef_RestAPI                                   :223 - Setting endpoint   : /v2/logout
+2020-08-21 02:05:38 INFO  StepDef_RestAPI                                   :228 - Response http code : 200
+2020-08-21 02:05:38 INFO  StepDef_RestAPI                                   :233 - Response body      : {"logout":"Logout success"}
+2020-08-21 02:05:38 INFO  StepDef_RestAPI                                   :238 - Received message: Logout success
+2020-08-21 02:05:38 INFO  HooksHelper                                       :29 - After the every Scenario hook
+2020-08-21 02:05:38 INFO  Utility_General                                   :50 - Resetting base Restassured
+2020-08-21 02:06:14 INFO  HooksHelper                                       :23 - Before every Scenario hook
+2020-08-21 02:06:14 FATAL Utility_General                                   :123 - 
+  ____       _                 _                    _____       _                 
+ |  _ \     | |               (_)                  |  __ \     (_)                
+ | |_) | ___| |__   __ ___   ___  ___  _   _ _ __  | |  | |_ __ ___   _____ _ __  
+ |  _ < / _ \ '_ \ / _` \ \ / / |/ _ \| | | | '__| | |  | | '__| \ \ / / _ \ '_ \ 
+ | |_) |  __/ | | | (_| |\ V /| | (_) | |_| | |    | |__| | |  | |\ V /  __/ | | |
+ |____/ \___|_| |_|\__,_| \_/ |_|\___/ \__,_|_|    |_____/|_|  |_| \_/ \___|_| |_|
+
+2020-08-21 02:06:14 INFO  Utility_General                                   :37 - Setting base uri: http://imademethink.pythonanywhere.com
+2020-08-21 02:06:14 INFO  Utility_General                                   :40 - Setting header ContentType : application/json
+2020-08-21 02:06:14 INFO  Utility_General                                   :41 - Setting header AcceptType  : application/json
+2020-08-21 02:06:14 INFO  Utility_General                                   :44 - Setting basic authentication user : diyuser
+2020-08-21 02:06:14 INFO  Utility_General                                   :45 - Setting basic authentication pwd  : diypwd
+2020-08-21 02:06:15 INFO  StepDef_RestAPI                                   :22 - Register_user_with_valid_data
+2020-08-21 02:06:15 INFO  StepDef_RestAPI                                   :34 - Request body       : {"password":"London7564","firstname":"Sherlock","captcha":"2020","user":"jo6988@aa.com","lastname":"Holmes"}
+2020-08-21 02:06:15 INFO  StepDef_RestAPI                                   :37 - Setting endpoint   : /v2/register
+2020-08-21 02:06:16 INFO  StepDef_RestAPI                                   :49 - Registration_should_be_successful
+2020-08-21 02:06:16 INFO  StepDef_RestAPI                                   :51 - ============================application/json
+2020-08-21 02:06:16 INFO  StepDef_RestAPI                                   :52 - Response http code : 201
+2020-08-21 02:06:16 INFO  StepDef_RestAPI                                   :54 - Response body      : {"register":"Registration success","userid":"userid_08"}
+2020-08-21 02:06:17 INFO  StepDef_RestAPI                                   :63 - Received message: Registration success
+2020-08-21 02:06:17 INFO  StepDef_RestAPI                                   :69 - Received userid : userid_08
+2020-08-21 02:06:17 INFO  HooksHelper                                       :29 - After the every Scenario hook
+2020-08-21 02:06:17 INFO  Utility_General                                   :50 - Resetting base Restassured
+2021-04-18 16:34:20 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:34:20 FATAL Utility_General                                   :116 - 
+  ____       _                 _                    _____       _                 
+ |  _ \     | |               (_)                  |  __ \     (_)                
+ | |_) | ___| |__   __ ___   ___  ___  _   _ _ __  | |  | |_ __ ___   _____ _ __  
+ |  _ < / _ \ '_ \ / _` \ \ / / |/ _ \| | | | '__| | |  | | '__| \ \ / / _ \ '_ \ 
+ | |_) |  __/ | | | (_| |\ V /| | (_) | |_| | |    | |__| | |  | |\ V /  __/ | | |
+ |____/ \___|_| |_|\__,_| \_/ |_|\___/ \__,_|_|    |_____/|_|  |_| \_/ \___|_| |_|
+
+2021-04-18 16:34:20 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:34:22 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:34:22 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:34:22 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:34:22 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:34:22 INFO  StepDef_RestAPI                                   :23 - Register_user_with_valid_data
+2021-04-18 16:34:22 INFO  StepDef_RestAPI                                   :40 - Setting endpoint   : /v2/register
+2021-04-18 16:34:30 INFO  StepDef_RestAPI                                   :67 - Registration_should_be_successful
+2021-04-18 16:34:30 INFO  StepDef_RestAPI                                   :69 - Response header    : application/json
+2021-04-18 16:34:30 INFO  StepDef_RestAPI                                   :70 - Response http code : 201
+2021-04-18 16:34:30 INFO  StepDef_RestAPI                                   :72 - Response body      : {"register":"Registration success","userid":"userid_00"}
+2021-04-18 16:34:31 INFO  StepDef_RestAPI                                   :81 - Received message: Registration success
+2021-04-18 16:34:31 INFO  StepDef_RestAPI                                   :87 - Received userid : userid_00
+2021-04-18 16:34:31 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:34:31 INFO  Utility_General                                   :42 - Resetting base Restassured
+2021-04-18 16:36:19 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:36:19 FATAL Utility_General                                   :116 - 
+  ____       _                 _                    _____       _                 
+ |  _ \     | |               (_)                  |  __ \     (_)                
+ | |_) | ___| |__   __ ___   ___  ___  _   _ _ __  | |  | |_ __ ___   _____ _ __  
+ |  _ < / _ \ '_ \ / _` \ \ / / |/ _ \| | | | '__| | |  | | '__| \ \ / / _ \ '_ \ 
+ | |_) |  __/ | | | (_| |\ V /| | (_) | |_| | |    | |__| | |  | |\ V /  __/ | | |
+ |____/ \___|_| |_|\__,_| \_/ |_|\___/ \__,_|_|    |_____/|_|  |_| \_/ \___|_| |_|
+
+2021-04-18 16:36:19 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:36:19 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:36:19 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:36:20 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:36:20 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:36:20 INFO  StepDef_RestAPI                                   :23 - Register_user_with_valid_data
+2021-04-18 16:36:20 INFO  StepDef_RestAPI                                   :40 - Setting endpoint   : /v2/register
+2021-04-18 16:36:23 INFO  StepDef_RestAPI                                   :67 - Registration_should_be_successful
+2021-04-18 16:36:23 INFO  StepDef_RestAPI                                   :69 - Response header    : application/json
+2021-04-18 16:36:23 INFO  StepDef_RestAPI                                   :70 - Response http code : 201
+2021-04-18 16:36:23 INFO  StepDef_RestAPI                                   :72 - Response body      : {"register":"Registration success","userid":"userid_01"}
+2021-04-18 16:36:24 INFO  StepDef_RestAPI                                   :81 - Received message: Registration success
+2021-04-18 16:36:24 INFO  StepDef_RestAPI                                   :87 - Received userid : userid_01
+2021-04-18 16:36:24 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:36:24 INFO  Utility_General                                   :42 - Resetting base Restassured
+2021-04-18 16:38:03 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:38:03 FATAL Utility_General                                   :116 - 
+  ____       _                 _                    _____       _                 
+ |  _ \     | |               (_)                  |  __ \     (_)                
+ | |_) | ___| |__   __ ___   ___  ___  _   _ _ __  | |  | |_ __ ___   _____ _ __  
+ |  _ < / _ \ '_ \ / _` \ \ / / |/ _ \| | | | '__| | |  | | '__| \ \ / / _ \ '_ \ 
+ | |_) |  __/ | | | (_| |\ V /| | (_) | |_| | |    | |__| | |  | |\ V /  __/ | | |
+ |____/ \___|_| |_|\__,_| \_/ |_|\___/ \__,_|_|    |_____/|_|  |_| \_/ \___|_| |_|
+
+2021-04-18 16:38:03 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:38:04 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:38:04 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:38:04 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:38:04 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:38:04 INFO  StepDef_RestAPI                                   :23 - Register_user_with_valid_data
+2021-04-18 16:38:04 INFO  StepDef_RestAPI                                   :40 - Setting endpoint   : /v2/register
+2021-04-18 16:38:06 INFO  StepDef_RestAPI                                   :54 - Registration_should_be_successful
+2021-04-18 16:38:06 INFO  StepDef_RestAPI                                   :56 - Response header    : application/json
+2021-04-18 16:38:06 INFO  StepDef_RestAPI                                   :57 - Response http code : 201
+2021-04-18 16:38:06 INFO  StepDef_RestAPI                                   :59 - Response body      : {"register":"Registration success","userid":"userid_02"}
+2021-04-18 16:38:07 INFO  StepDef_RestAPI                                   :68 - Received message: Registration success
+2021-04-18 16:38:07 INFO  StepDef_RestAPI                                   :74 - Received userid : userid_02
+2021-04-18 16:38:07 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:38:07 INFO  Utility_General                                   :42 - Resetting base Restassured
+2021-04-18 16:39:12 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:39:12 FATAL Utility_General                                   :116 - 
+  ____       _                 _                    _____       _                 
+ |  _ \     | |               (_)                  |  __ \     (_)                
+ | |_) | ___| |__   __ ___   ___  ___  _   _ _ __  | |  | |_ __ ___   _____ _ __  
+ |  _ < / _ \ '_ \ / _` \ \ / / |/ _ \| | | | '__| | |  | | '__| \ \ / / _ \ '_ \ 
+ | |_) |  __/ | | | (_| |\ V /| | (_) | |_| | |    | |__| | |  | |\ V /  __/ | | |
+ |____/ \___|_| |_|\__,_| \_/ |_|\___/ \__,_|_|    |_____/|_|  |_| \_/ \___|_| |_|
+
+2021-04-18 16:39:12 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:39:13 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:39:13 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:39:13 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:39:13 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:39:13 INFO  StepDef_RestAPI                                   :80 - Registration_with_valid_user_data_should_be_successful
+2021-04-18 16:39:13 INFO  StepDef_RestAPI                                   :92 - Request body       : {"password":"London1847","firstname":"Sherlock","captcha":"2021","user":"jo3778@aa.com","lastname":"Holmes"}
+2021-04-18 16:39:13 INFO  StepDef_RestAPI                                   :95 - Setting endpoint   : /v2/register
+2021-04-18 16:39:16 INFO  StepDef_RestAPI                                   :99 - Response http code : 201
+2021-04-18 16:39:16 INFO  StepDef_RestAPI                                   :101 - Response body      : {"register":"Registration success","userid":"userid_03"}
+2021-04-18 16:39:17 INFO  StepDef_RestAPI                                   :110 - Received message: Registration success
+2021-04-18 16:39:17 INFO  StepDef_RestAPI                                   :116 - Received userid : userid_03
+2021-04-18 16:39:17 INFO  StepDef_RestAPI                                   :134 - Login_with_valid_user_data_should_be_successful
+2021-04-18 16:39:17 INFO  StepDef_RestAPI                                   :139 - Request body       : {"password":"London1847","user":"jo3778@aa.com"}
+2021-04-18 16:39:17 INFO  StepDef_RestAPI                                   :142 - Setting endpoint   : /v2/login
+2021-04-18 16:39:18 INFO  StepDef_RestAPI                                   :147 - Response http code : 200
+2021-04-18 16:39:18 INFO  StepDef_RestAPI                                   :152 - Response body      : {"login":"Login success","token":"xezvuanhhcpauzfv"}
+2021-04-18 16:39:18 INFO  StepDef_RestAPI                                   :157 - Received message: Login success
+2021-04-18 16:39:18 INFO  StepDef_RestAPI                                   :163 - Received token : xezvuanhhcpauzfv
+2021-04-18 16:39:18 INFO  StepDef_RestAPI                                   :171 - Update_profile_with_valid_data_should_be_successful
+2021-04-18 16:39:18 INFO  StepDef_RestAPI                                   :182 - Request body       : {"password":"London1847","firstname":"Clint","newpassword":"Paris1847","user":"jo3778@aa.com","lastname":"Eastwood"}
+2021-04-18 16:39:18 INFO  StepDef_RestAPI                                   :185 - Setting endpoint   : /v2/updateprofile
+2021-04-18 16:39:18 INFO  StepDef_RestAPI                                   :190 - Response http code : 200
+2021-04-18 16:39:18 INFO  StepDef_RestAPI                                   :195 - Response body      : {"updateprofile":"Update profile success"}
+2021-04-18 16:39:18 INFO  StepDef_RestAPI                                   :200 - Received message: Update profile success
+2021-04-18 16:39:18 INFO  StepDef_RestAPI                                   :213 - Logout_with_valid_user_data_should_be_successful
+2021-04-18 16:39:18 INFO  StepDef_RestAPI                                   :218 - Request body       : {"password":"Paris1847","user":"jo3778@aa.com"}
+2021-04-18 16:39:18 INFO  StepDef_RestAPI                                   :221 - Setting endpoint   : /v2/logout
+2021-04-18 16:39:19 INFO  StepDef_RestAPI                                   :226 - Response http code : 200
+2021-04-18 16:39:19 INFO  StepDef_RestAPI                                   :231 - Response body      : {"logout":"Logout success"}
+2021-04-18 16:39:19 INFO  StepDef_RestAPI                                   :236 - Received message: Logout success
+2021-04-18 16:39:19 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:39:19 INFO  Utility_General                                   :42 - Resetting base Restassured
+2021-04-18 16:40:07 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:40:07 FATAL Utility_General                                   :116 - 
+  ____       _                 _                    _____       _                 
+ |  _ \     | |               (_)                  |  __ \     (_)                
+ | |_) | ___| |__   __ ___   ___  ___  _   _ _ __  | |  | |_ __ ___   _____ _ __  
+ |  _ < / _ \ '_ \ / _` \ \ / / |/ _ \| | | | '__| | |  | | '__| \ \ / / _ \ '_ \ 
+ | |_) |  __/ | | | (_| |\ V /| | (_) | |_| | |    | |__| | |  | |\ V /  __/ | | |
+ |____/ \___|_| |_|\__,_| \_/ |_|\___/ \__,_|_|    |_____/|_|  |_| \_/ \___|_| |_|
+
+2021-04-18 16:40:07 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:40:08 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:40:08 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:40:08 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:40:08 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:40:09 INFO  StepDef_RestAPI                                   :23 - Register_user_with_valid_data
+2021-04-18 16:40:09 INFO  StepDef_RestAPI                                   :33 - Setting endpoint   : /v2/register
+2021-04-18 16:40:11 INFO  StepDef_RestAPI                                   :47 - Registration_should_be_successful
+2021-04-18 16:40:11 INFO  StepDef_RestAPI                                   :49 - Response header    : application/json
+2021-04-18 16:40:11 INFO  StepDef_RestAPI                                   :50 - Response http code : 201
+2021-04-18 16:40:11 INFO  StepDef_RestAPI                                   :52 - Response body      : {"register":"Registration success","userid":"userid_04"}
+2021-04-18 16:40:12 INFO  StepDef_RestAPI                                   :61 - Received message: Registration success
+2021-04-18 16:40:12 INFO  StepDef_RestAPI                                   :67 - Received userid : userid_04
+2021-04-18 16:40:12 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:40:12 INFO  Utility_General                                   :42 - Resetting base Restassured
+2021-04-18 16:40:12 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:40:12 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:40:12 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:40:12 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:40:12 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:40:12 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:40:12 INFO  StepDef_RestAPI                                   :80 - Registration_with_valid_user_data_should_be_successful
+2021-04-18 16:40:12 INFO  StepDef_RestAPI                                   :92 - Request body       : {"password":"London7805","firstname":"Sherlock","captcha":"2021","user":"jo7330@aa.com","lastname":"Holmes"}
+2021-04-18 16:40:12 INFO  StepDef_RestAPI                                   :95 - Setting endpoint   : /v2/register
+2021-04-18 16:40:13 INFO  StepDef_RestAPI                                   :99 - Response http code : 201
+2021-04-18 16:40:13 INFO  StepDef_RestAPI                                   :101 - Response body      : {"register":"Registration success","userid":"userid_05"}
+2021-04-18 16:40:13 INFO  StepDef_RestAPI                                   :110 - Received message: Registration success
+2021-04-18 16:40:13 INFO  StepDef_RestAPI                                   :116 - Received userid : userid_05
+2021-04-18 16:40:13 INFO  StepDef_RestAPI                                   :134 - Login_with_valid_user_data_should_be_successful
+2021-04-18 16:40:13 INFO  StepDef_RestAPI                                   :139 - Request body       : {"password":"London7805","user":"jo7330@aa.com"}
+2021-04-18 16:40:13 INFO  StepDef_RestAPI                                   :142 - Setting endpoint   : /v2/login
+2021-04-18 16:40:14 INFO  StepDef_RestAPI                                   :147 - Response http code : 200
+2021-04-18 16:40:14 INFO  StepDef_RestAPI                                   :152 - Response body      : {"login":"Login success","token":"rqvckmyowhhyyhiv"}
+2021-04-18 16:40:14 INFO  StepDef_RestAPI                                   :157 - Received message: Login success
+2021-04-18 16:40:14 INFO  StepDef_RestAPI                                   :163 - Received token : rqvckmyowhhyyhiv
+2021-04-18 16:40:14 INFO  StepDef_RestAPI                                   :171 - Update_profile_with_valid_data_should_be_successful
+2021-04-18 16:40:14 INFO  StepDef_RestAPI                                   :182 - Request body       : {"password":"London7805","firstname":"Clint","newpassword":"Paris7805","user":"jo7330@aa.com","lastname":"Eastwood"}
+2021-04-18 16:40:14 INFO  StepDef_RestAPI                                   :185 - Setting endpoint   : /v2/updateprofile
+2021-04-18 16:40:14 INFO  StepDef_RestAPI                                   :190 - Response http code : 200
+2021-04-18 16:40:14 INFO  StepDef_RestAPI                                   :195 - Response body      : {"updateprofile":"Update profile success"}
+2021-04-18 16:40:14 INFO  StepDef_RestAPI                                   :200 - Received message: Update profile success
+2021-04-18 16:40:14 INFO  StepDef_RestAPI                                   :213 - Logout_with_valid_user_data_should_be_successful
+2021-04-18 16:40:14 INFO  StepDef_RestAPI                                   :218 - Request body       : {"password":"Paris7805","user":"jo7330@aa.com"}
+2021-04-18 16:40:14 INFO  StepDef_RestAPI                                   :221 - Setting endpoint   : /v2/logout
+2021-04-18 16:40:15 INFO  StepDef_RestAPI                                   :226 - Response http code : 200
+2021-04-18 16:40:15 INFO  StepDef_RestAPI                                   :231 - Response body      : {"logout":"Logout success"}
+2021-04-18 16:40:15 INFO  StepDef_RestAPI                                   :236 - Received message: Logout success
+2021-04-18 16:40:15 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:40:15 INFO  Utility_General                                   :42 - Resetting base Restassured
+2021-04-18 16:40:15 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:40:15 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:40:15 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:40:15 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:40:15 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:40:15 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:40:15 INFO  StepDef_RestAPI                                   :42 - Register_user_with_invalid_data
+2021-04-18 16:40:15 INFO  StepDef_RestAPI                                   :75 - Registration_should_NOT_be_successful
+2021-04-18 16:40:15 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:40:15 INFO  Utility_General                                   :42 - Resetting base Restassured
+2021-04-18 16:40:15 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:40:15 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:40:15 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:40:15 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:40:15 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:40:15 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:40:15 INFO  StepDef_RestAPI                                   :124 - Registration_with_invalid_user_data_should_be_successful
+2021-04-18 16:40:15 INFO  StepDef_RestAPI                                   :129 - Login_with_invalid_user_data_should_NOT_be_successful
+2021-04-18 16:40:15 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:40:15 INFO  Utility_General                                   :42 - Resetting base Restassured
+2021-04-18 16:40:15 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:40:15 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:40:15 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:40:15 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:40:15 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:40:15 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:40:15 INFO  StepDef_RestAPI                                   :124 - Registration_with_invalid_user_data_should_be_successful
+2021-04-18 16:40:15 INFO  StepDef_RestAPI                                   :134 - Login_with_valid_user_data_should_be_successful
+2021-04-18 16:40:15 INFO  StepDef_RestAPI                                   :139 - Request body       : {"password":"Paris7805","user":"jo7330@aa.com"}
+2021-04-18 16:40:15 INFO  StepDef_RestAPI                                   :142 - Setting endpoint   : /v2/login
+2021-04-18 16:40:16 INFO  StepDef_RestAPI                                   :147 - Response http code : 200
+2021-04-18 16:40:16 INFO  StepDef_RestAPI                                   :152 - Response body      : {"login":"Login success","token":"vppcrhrdvjwfrnfl"}
+2021-04-18 16:40:16 INFO  StepDef_RestAPI                                   :157 - Received message: Login success
+2021-04-18 16:40:16 INFO  StepDef_RestAPI                                   :163 - Received token : vppcrhrdvjwfrnfl
+2021-04-18 16:40:16 INFO  StepDef_RestAPI                                   :208 - Update_profile_with_invalid_data_should_NOT_be_successful
+2021-04-18 16:40:16 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:40:16 INFO  Utility_General                                   :42 - Resetting base Restassured
+2021-04-18 16:43:52 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:43:52 FATAL Utility_General                                   :116 - 
+  ____       _                 _                    _____       _                 
+ |  _ \     | |               (_)                  |  __ \     (_)                
+ | |_) | ___| |__   __ ___   ___  ___  _   _ _ __  | |  | |_ __ ___   _____ _ __  
+ |  _ < / _ \ '_ \ / _` \ \ / / |/ _ \| | | | '__| | |  | | '__| \ \ / / _ \ '_ \ 
+ | |_) |  __/ | | | (_| |\ V /| | (_) | |_| | |    | |__| | |  | |\ V /  __/ | | |
+ |____/ \___|_| |_|\__,_| \_/ |_|\___/ \__,_|_|    |_____/|_|  |_| \_/ \___|_| |_|
+
+2021-04-18 16:43:52 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:43:53 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:43:53 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:43:53 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:43:53 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:43:53 INFO  StepDef_RestAPI                                   :23 - Register_user_with_valid_data
+2021-04-18 16:43:53 INFO  StepDef_RestAPI                                   :33 - Setting endpoint   : /v2/register
+2021-04-18 16:43:55 INFO  StepDef_RestAPI                                   :47 - Registration_should_be_successful
+2021-04-18 16:43:55 INFO  StepDef_RestAPI                                   :49 - Response header    : application/json
+2021-04-18 16:43:55 INFO  StepDef_RestAPI                                   :50 - Response http code : 201
+2021-04-18 16:43:55 INFO  StepDef_RestAPI                                   :52 - Response body      : {"register":"Registration success","userid":"userid_06"}
+2021-04-18 16:43:56 INFO  StepDef_RestAPI                                   :61 - Received message: Registration success
+2021-04-18 16:43:56 INFO  StepDef_RestAPI                                   :67 - Received userid : userid_06
+2021-04-18 16:43:56 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:43:56 INFO  Utility_General                                   :42 - Resetting base Restassured
+2021-04-18 16:43:56 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:43:56 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:43:56 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:43:56 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:43:56 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:43:56 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:43:56 INFO  StepDef_RestAPI                                   :80 - Registration_with_valid_user_data_should_be_successful
+2021-04-18 16:43:56 INFO  StepDef_RestAPI                                   :92 - Request body       : {"password":"London2713","firstname":"Sherlock","captcha":"2021","user":"jo4022@aa.com","lastname":"Holmes"}
+2021-04-18 16:43:56 INFO  StepDef_RestAPI                                   :95 - Setting endpoint   : /v2/register
+2021-04-18 16:43:57 INFO  StepDef_RestAPI                                   :99 - Response http code : 201
+2021-04-18 16:43:57 INFO  StepDef_RestAPI                                   :101 - Response body      : {"register":"Registration success","userid":"userid_07"}
+2021-04-18 16:43:57 INFO  StepDef_RestAPI                                   :110 - Received message: Registration success
+2021-04-18 16:43:57 INFO  StepDef_RestAPI                                   :116 - Received userid : userid_07
+2021-04-18 16:43:57 INFO  StepDef_RestAPI                                   :134 - Login_with_valid_user_data_should_be_successful
+2021-04-18 16:43:57 INFO  StepDef_RestAPI                                   :139 - Request body       : {"password":"London2713","user":"jo4022@aa.com"}
+2021-04-18 16:43:57 INFO  StepDef_RestAPI                                   :142 - Setting endpoint   : /v2/login
+2021-04-18 16:43:58 INFO  StepDef_RestAPI                                   :147 - Response http code : 200
+2021-04-18 16:43:58 INFO  StepDef_RestAPI                                   :152 - Response body      : {"login":"Login success","token":"yfdrsjlxpqrbofrj"}
+2021-04-18 16:43:58 INFO  StepDef_RestAPI                                   :157 - Received message: Login success
+2021-04-18 16:43:58 INFO  StepDef_RestAPI                                   :163 - Received token : yfdrsjlxpqrbofrj
+2021-04-18 16:43:58 INFO  StepDef_RestAPI                                   :171 - Update_profile_with_valid_data_should_be_successful
+2021-04-18 16:43:58 INFO  StepDef_RestAPI                                   :182 - Request body       : {"password":"London2713","firstname":"Clint","newpassword":"Paris2713","user":"jo4022@aa.com","lastname":"Eastwood"}
+2021-04-18 16:43:58 INFO  StepDef_RestAPI                                   :185 - Setting endpoint   : /v2/updateprofile
+2021-04-18 16:43:58 INFO  StepDef_RestAPI                                   :190 - Response http code : 200
+2021-04-18 16:43:58 INFO  StepDef_RestAPI                                   :195 - Response body      : {"updateprofile":"Update profile success"}
+2021-04-18 16:43:58 INFO  StepDef_RestAPI                                   :200 - Received message: Update profile success
+2021-04-18 16:43:58 INFO  StepDef_RestAPI                                   :213 - Logout_with_valid_user_data_should_be_successful
+2021-04-18 16:43:58 INFO  StepDef_RestAPI                                   :218 - Request body       : {"password":"Paris2713","user":"jo4022@aa.com"}
+2021-04-18 16:43:58 INFO  StepDef_RestAPI                                   :221 - Setting endpoint   : /v2/logout
+2021-04-18 16:43:59 INFO  StepDef_RestAPI                                   :226 - Response http code : 200
+2021-04-18 16:43:59 INFO  StepDef_RestAPI                                   :231 - Response body      : {"logout":"Logout success"}
+2021-04-18 16:43:59 INFO  StepDef_RestAPI                                   :236 - Received message: Logout success
+2021-04-18 16:43:59 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:43:59 INFO  Utility_General                                   :42 - Resetting base Restassured
+2021-04-18 16:43:59 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:43:59 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:43:59 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:43:59 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:43:59 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:43:59 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:43:59 INFO  StepDef_RestAPI                                   :42 - Register_user_with_invalid_data
+2021-04-18 16:43:59 INFO  StepDef_RestAPI                                   :75 - Registration_should_NOT_be_successful
+2021-04-18 16:43:59 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:43:59 INFO  Utility_General                                   :42 - Resetting base Restassured
+2021-04-18 16:43:59 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:43:59 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:43:59 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:43:59 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:43:59 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:43:59 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:43:59 INFO  StepDef_RestAPI                                   :124 - Registration_with_invalid_user_data_should_be_successful
+2021-04-18 16:43:59 INFO  StepDef_RestAPI                                   :129 - Login_with_invalid_user_data_should_NOT_be_successful
+2021-04-18 16:43:59 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:43:59 INFO  Utility_General                                   :42 - Resetting base Restassured
+2021-04-18 16:43:59 INFO  HooksHelper                                       :16 - Before every Scenario hook
+2021-04-18 16:43:59 INFO  Utility_General                                   :29 - Setting base uri: http://imademethink.pythonanywhere.com
+2021-04-18 16:43:59 INFO  Utility_General                                   :32 - Setting header ContentType : application/json
+2021-04-18 16:43:59 INFO  Utility_General                                   :33 - Setting header AcceptType  : application/json
+2021-04-18 16:43:59 INFO  Utility_General                                   :36 - Setting basic authentication user : diyuser
+2021-04-18 16:43:59 INFO  Utility_General                                   :37 - Setting basic authentication pwd  : diypwd
+2021-04-18 16:43:59 INFO  StepDef_RestAPI                                   :124 - Registration_with_invalid_user_data_should_be_successful
+2021-04-18 16:43:59 INFO  StepDef_RestAPI                                   :134 - Login_with_valid_user_data_should_be_successful
+2021-04-18 16:43:59 INFO  StepDef_RestAPI                                   :139 - Request body       : {"password":"Paris2713","user":"jo4022@aa.com"}
+2021-04-18 16:43:59 INFO  StepDef_RestAPI                                   :142 - Setting endpoint   : /v2/login
+2021-04-18 16:44:00 INFO  StepDef_RestAPI                                   :147 - Response http code : 200
+2021-04-18 16:44:00 INFO  StepDef_RestAPI                                   :152 - Response body      : {"login":"Login success","token":"mscoqxmbtennluxv"}
+2021-04-18 16:44:00 INFO  StepDef_RestAPI                                   :157 - Received message: Login success
+2021-04-18 16:44:00 INFO  StepDef_RestAPI                                   :163 - Received token : mscoqxmbtennluxv
+2021-04-18 16:44:00 INFO  StepDef_RestAPI                                   :208 - Update_profile_with_invalid_data_should_NOT_be_successful
+2021-04-18 16:44:00 INFO  HooksHelper                                       :23 - After the every Scenario hook
+2021-04-18 16:44:00 INFO  Utility_General                                   :42 - Resetting base Restassured
